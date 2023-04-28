@@ -6,6 +6,7 @@
 https://github.com/ApolloAuto/apollo  
 https://zhuanlan.zhihu.com/p/371585754  
 https://blog.csdn.net/xl_courage/article/details/121569105  
+https://blog.csdn.net/u013468614/article/details/108416552
 
 原始轨迹：  
 ![Image text](https://github.com/FasonLee/fem_smoother/blob/master/pictures/Origin_Path.svg)  
