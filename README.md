@@ -1,7 +1,68 @@
 # fem_smoother
-依赖三方库：
-Egigen、Osqp、Osqpeigen、Boost、Protobuf
-三方库安装:
-sudo apt install libeigen3-dev
+## 1、安装依赖三方库（Eigen3、Osqp、Osqpeigen、Boost、Protobuf、matplotlib-cpp）:  
+Eigen3、Boost、Protobuf
+```
+sudo apt install libeigen3-dev  
+sudo apt install libboost-all-dev  
+sudo apt install libprotobuf-dev protobuf-compiler  
+```
 
-https://blog.csdn.net/qq_38313901/article/details/119415574
+osqp
+```
+git clone https://github.com/oxfordcontrol/osqp  
+cd osqp  
+mkdir build  
+cd build  
+cmake ..
+make  
+sudo make install  
+```
+
+osqp-eigen
+```
+git clone https://github.com/robotology/osqp-eigen.git  
+cd osqp-eigen  
+mkdir build && cd build  
+cmake ..  
+make  
+sudo make install  
+```
+
+matplotlib-cpp
+```
+git clone https://github.com/lava/matplotlib-cpp.git  
+cd matplotlib-cpp  
+mkdir build && cd build  
+cmake ..  
+make  
+sudo make install  
+```
+
+参考链接：  
+https://blog.csdn.net/qq_38313901/article/details/119415574  
+https://blog.csdn.net/qq_35632833/article/details/116505099  
+https://blog.csdn.net/qq_41854911/article/details/119454212  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
