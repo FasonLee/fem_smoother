@@ -11,7 +11,6 @@
 ![Image text](https://github.com/FasonLee/fem_smoother/blob/master/pictures/Smoothed_Path.svg)  
 
 对比：  
-![Image text](https://github.com/FasonLee/fem_smoother/blob/master/pictures/Compare.svg)  
 
 参考链接：  
 https://github.com/ApolloAuto/apollo  
